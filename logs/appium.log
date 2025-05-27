@@ -1,0 +1,26 @@
+2025-05-27 14:30:23:215 [Appium] Welcome to Appium v2.18.0 (REV 8b8c6080afcfca29a96c5e5fd1b25b90973ea923)
+2025-05-27 14:30:23:217 [Appium] Non-default server args:
+2025-05-27 14:30:23:219 [Appium] { basePath: '/', relaxedSecurityEnabled: true }
+2025-05-27 14:30:23:219 [Appium] The autodetected Appium home path: /Users/mmierzej/.appium
+2025-05-27 14:30:23:219 [Appium] Attempting to load driver xcuitest...
+2025-05-27 14:30:23:220 [Appium] Attempting to load driver uiautomator2...
+2025-05-27 14:30:23:221 [Appium] Attempting to load driver espresso...
+2025-05-27 14:30:23:223 [Appium] Requiring driver at /Users/mmierzej/.appium/node_modules/appium-xcuitest-driver/build/index.js
+2025-05-27 14:30:23:224 [Appium] Requiring driver at /Users/mmierzej/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2025-05-27 14:30:23:226 [Appium] Requiring driver at /Users/mmierzej/.appium/node_modules/appium-espresso-driver/build/index.js
+2025-05-27 14:30:24:996 [Appium] XCUITestDriver has been successfully loaded in 1.775s
+2025-05-27 14:30:27:957 [Appium] AndroidUiautomator2Driver has been successfully loaded in 4.737s
+2025-05-27 14:30:27:958 [Appium] EspressoDriver has been successfully loaded in 4.737s
+2025-05-27 14:30:27:975 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
+2025-05-27 14:30:27:977 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:4723/ (only accessible from the same host)
+	http://192.168.1.51:4723/
+2025-05-27 14:30:27:977 [Appium] Available drivers:
+2025-05-27 14:30:27:977 [Appium]   - xcuitest@9.2.5 (automationName 'XCUITest')
+2025-05-27 14:30:27:977 [Appium]   - uiautomator2@4.2.3 (automationName 'UiAutomator2')
+2025-05-27 14:30:27:977 [Appium]   - espresso@4.1.6 (automationName 'Espresso')
+2025-05-27 14:30:27:978 [Appium] Available plugins:
+2025-05-27 14:30:27:978 [Appium]   - inspector@2025.3.1
+2025-05-27 14:30:27:978 [Appium]   - images@3.1.2
+2025-05-27 14:30:27:978 [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+2025-05-27 14:30:28:300 [Appium] Received SIGTERM - shutting down
