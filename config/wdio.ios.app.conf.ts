@@ -1,7 +1,5 @@
 import { config as baseConfig } from "./wdio.shared.local.appium.conf.js";
 
-const isGhActions = process.env.GITHUB_ACTION;
-
 export const config: WebdriverIO.Config = {
     ...baseConfig,
 
