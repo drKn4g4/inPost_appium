@@ -38,3 +38,21 @@ _However, you are free to use a similar app if this one does not meet your requi
 **Final tasks:**
 - Document your work - create a README file with instructions on how to execute test scripts including explanations of coding choices when necessary
 - Upload the automation project to a source code repository of your choice (GitHub, GitLab BitBucket, etc.). Ensure that the commit history is preserved to reflect development progress
+
+
+**Steps of implementation**
+1. I downloaded demo package's source code 
+2. fixed CatalogViewController.swift at 190th line with 
+```swift
+       if Engine.sharedInstance.userName == "visual@example.com" {
+            productPrice = String(format: "%.2f", Double.random(in: 1...99))
+        } else {
+            productPrice = (productDataDic.value(forKey: NSLocalizedString("ProductPrice", comment: "")) as? String) ?? "0.00"
+        }
+```
+**Without this solution there were no option to build this project in xCode with success**
+
+3. After that I executed given test case manually just to take all essential ScreenObjects and componenets and get familiar with proper workflow and eliminate bugs before automation
+4. Created config files for webdriver and appium wrapped with BDD dictionary
+5. Created pseudo-code of TC
+6. Ta da!
